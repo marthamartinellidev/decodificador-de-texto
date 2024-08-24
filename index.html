@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto
+    </title>
+</head>
+<body>
+    <header>
+        <img class="letra__m" src="./imagens/m-martha.png" alt="inicial martha">
+    </header>
+    <main>
+        <section>
+            <textarea class="area__de__texto" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+            <div class="informacao">
+                <img class="exclamacao" src="./imagens/exclamacao.png">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="botao__criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="botao__descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="10" rows="20" placeholder=""></textarea>
+            <button class="botao__copiar" onclick="btnCopiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a class="credito" href="https://github.com/marthamartinellidev">Martha Martinelli, 2024</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

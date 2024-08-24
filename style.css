@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+:root {
+    --corprimaria: #FFF9C9;
+    --corsecundaria: #862B0D;
+    --corterciaria: #FFFFFF;
+}
+
+* {
+    background: var(--corprimaria);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.letra__m {
+    padding: 40px 0 0 40px;
+    width: 5%;
+}
+
+main {
+    display: flex;
+    gap: 60px;
+}
+
+.area__de__texto {
+    border: none;
+    color: var(--corsecundaria);
+    margin-top: 50px;
+    text-transform: lowercase;
+    font-size: 32px;
+    padding-left: 240px;
+    resize: none;
+}
+
+::placeholder {color: var(--corsecundaria)}
+    .area__de__texto:focus {
+        outline: none;
+    }
+
+.informacao {
+    padding-left: 240px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    gap: 5px;
+}
+.exclamacao {
+    width: 12px;
+    height: 12px;
+}
+
+.mensagem {
+    display: flex;
+    background: var(--corterciaria);
+    background-image: url(./imagens/mulher-lupa.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: var(--corsecundaria);
+    position: fixed;
+    right: 250px;
+    padding: 60px;
+    resize: none;
+    top: 50px;
+    bottom: 60px;
+    font-size: 24px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao__criptografar {
+    color: var(--corprimaria);
+    background-color: var(--corsecundaria);
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: 67px;
+    font-size: 16px;
+}
+
+.botao__descriptografar {
+    color: var(--corsecundaria);
+    background-color: var(--corprimaria);
+    border: 1px solid var(--corsecundaria);
+    border-radius: 15px;
+    width: 300px;
+    height: 67px;
+    font-size: 16px;
+}
+
+.botao__copiar {
+    color: var(--corsecundaria);
+    background-color: var(--corterciaria);
+    border: 1px solid var(--corsecundaria);
+    border-radius: 15px;
+    width: 200px;
+    height: 67px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 440px;
+    bottom: 110px;
+    left: 1035px;
+}
+
+.credito {
+    padding: 0 0 0 60px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #862B0D;
+}
